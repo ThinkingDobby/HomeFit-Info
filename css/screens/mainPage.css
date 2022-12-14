@@ -11,8 +11,18 @@ body {
   z-index: 1;
 }
 
-.mainPageSection1 {
+.mainPageSection1{
   height: 100vh;
+}
+
+.mainPageSection1 .mainHeader{
+  position: fixed;
+  height: 10vh;
+  top: 0;
+  width: 100%;
+  padding: 2.3rem 0 0.5rem;
+  background-color: #261f1a;
+  z-index: 1;
 }
 
 .mainPageSection1 .mainLogoImg {
@@ -32,14 +42,12 @@ body {
 .mainPageSection1 .mainLogoSubTxt {
   margin-top: 18px;
   text-align: center;
-
   font-size: 16px;
-
   font-family: "Eulyoo 1945";
 }
 
 .mainPageSection2 {
-  height: 96vh;
+  height: 150vh;
 }
 
 .mainPageSection2 .title {
